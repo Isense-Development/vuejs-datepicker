@@ -28,6 +28,31 @@ To view demo examples locally clone the repo and run `npm install && npm run ser
 
 ## Install
 
+Add css
+```css
+.vdp-datepicker * {
+    box-sizing: border-box;
+    width: 100%;
+    border: none !important;
+    border-width: 0;
+    outline: none !important;
+    color: #495057;
+}
+
+.vdp-datepicker__calendar .cell.selected {
+    background: #0665C1 !important;
+    color: #fff
+}
+
+.vdp-datepicker__calendar {
+    position: absolute;
+    z-index: 100;
+    background: #fff;
+    width: 250px !important;
+    border: 1px solid #ccc !important;
+}
+```
+
 ``` bash
 npm install vuejs-datepicker --save
 ```
